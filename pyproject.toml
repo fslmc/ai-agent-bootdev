@@ -1,0 +1,20 @@
+[project]
+name = "ai-agent-bootdev"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "fslmc", email = "fslfaisal17@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "openai==2.44.0",
+    "python-dotenv==1.1.0",
+]
+
+[project.scripts]
+ai-agent-bootdev = "ai_agent_bootdev:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
